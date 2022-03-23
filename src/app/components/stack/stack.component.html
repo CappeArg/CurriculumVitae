@@ -1,0 +1,34 @@
+<div class="col m-4">
+    <div class="row">
+        <h2 class="animate__animated animate__fadeIn animate__faster">Formación</h2>
+        <hr>
+        <h4 class="text-center animate__animated animate__fadeIn animate__faster">Carreras</h4>
+    </div>
+    <div class="card  m-4 animate__animated animate__fadeIn animate__faster" *ngFor="let carrera of carreras">
+        <div class="card-header">
+            {{ carrera.institucion }} - {{ carrera.nivel }}
+        </div>
+        <div class="card-body">
+            <blockquote class="blockquote mb-0">
+                <p>{{carrera.titulo}}.</p>
+                <footer class="blockquote-footer">Desde Año {{carrera.inicio}} a {{carrera.fin}}</footer>
+                <span *ngIf=carrera.estado class="badge bg-success">Finalizado!</span>
+                <span *ngIf=!carrera.estado class="badge bg-warning">Incompleto</span>
+            </blockquote>
+        </div>
+    </div>
+
+
+    <h4 class="text-center animate__animated animate__fadeIn animate__faster">Cursos</h4>
+</div>
+<div class="card  m-4 animate__animated animate__fadeIn animate__faster" *ngFor="let curso of cursos">
+    <div class="card-header">
+        {{ curso.lugar }} - Año {{ curso.anio }}
+    </div>
+    <div class="card-body">
+        <blockquote class="blockquote mb-0">
+            <p>{{curso.titulo}}.</p>
+            <footer class="blockquote-footer">{{curso.descripcion}}</footer>
+        </blockquote>
+    </div>
+</div>

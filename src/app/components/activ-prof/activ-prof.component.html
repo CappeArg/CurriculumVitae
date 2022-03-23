@@ -1,0 +1,25 @@
+<div class="col m-4">
+    <div class="row">
+        <h2 class="animate__animated animate__fadeIn animate__faster">Actividad Profesional</h2>
+        <hr>
+        <div class="col">
+            <div class="row m-2 animate__animated animate__fadeIn animate__faster">
+                <a *ngIf="!verMas" (click)="verMas = !verMas" class="btn btn-success">Quiero ver más..</a>
+                <a *ngIf="verMas" (click)="verMas= !verMas " class="btn btn-danger ">Mostrar solo un resumen..</a>
+            </div>
+        </div>
+    </div>
+    <div class="card m-4 animate__animated animate__fadeIn animate__faster" *ngFor="let trabajo of expLaboral ">
+        <div class="card-header text-success ">
+            {{trabajo.organizacion}} - {{ trabajo.lugar }}
+        </div>
+        <div class="card-body animate__animated animate__fadeIn animate__faster">
+            <h5 class="card-title ">{{trabajo.cargo}} - {{trabajo.sector}}</h5>
+            <p *ngIf="!verMas " class="card-text ">{{trabajo.descripcionTareas | slice:0:130}}... </p>
+            <p *ngIf="verMas" class="card-text ">{{trabajo.descripcionTareas }} </p>
+            <span *ngIf="trabajo.continuaTrab" class="badge bg-success">Actualmente trabajando!</span>
+            <span *ngIf="!trabajo.continuaTrab" class="badge bg-info">Desde Año {{trabajo.anioInicio}} a {{trabajo.anioFin }}</span>
+
+        </div>
+    </div>
+</div>
