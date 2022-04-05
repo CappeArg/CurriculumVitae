@@ -1,7 +1,7 @@
 # CurriculumVitae
 
 #Demo!
-[visite mi cv](https://www.cappe.net.ar)
+[visite mi cv](https://cappe.net.ar/)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.4.
 
