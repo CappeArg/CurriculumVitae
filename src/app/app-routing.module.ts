@@ -10,7 +10,7 @@ const routes: Routes = [
   { path: 'profesional', component: ActivProfComponent },
   { path: 'actualidad'   , component: ActualidadComponent },
   { path: 'formacion', component: StackComponent },
-  { path: '**', redirectTo: 'home' }];
+  { path: '**', pathMatch:'full', redirectTo: 'home' }];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
