@@ -1,30 +1,34 @@
-# CurriculumVitae
+# Mi Primer Curriculum Vitae como Desarrollador
+## _Nunca es tarde para aprender :-)_
+Es mi primer curriculum como desarrollador, el mismo fue efectuado en Angular 13 para practicar con un ejemplo real que no sea un sistema de veterinaria, una tienda online o algo parecido jajaja.
 
-#Demo!
-[visite mi cv](https://cappe.net.ar/)
+Las secciones que incluyo son:
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.4.
+- 💝Información Personal 💝
+- 👷Actividad Profesional👷
+- 🎓Formación🎓
+- 📆Hoy📆
 
-## Development server
+## Características
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- SPA desarrollada en Angular
+- Despliegue en Firebase
+- Protegido en CloudFlare (solo práctico!!)
+- Dominio propio cappe.net.ar
 
-## Code scaffolding
+## Qué aprendí:
+> Más allá de las tecnologías usadas: Angular, Firebase, TypeScript,etc
+> Creo que lo más importante es SER ORDENADO. Cometí algunos errores al momento de
+> realizar los commits y eso me hizo perder un monton de tiempo en cosas básicas.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Instalación
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Ejecute ng serve para un entorno local. Ingrese http://localhost:4200/. La aplicación se actualiza automaticamente si se realizan cambios
+Requiere Node :-D
 
-## Running unit tests
+## License
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+MIT
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+**_Curriculum Vitae Gratis(?)_**
