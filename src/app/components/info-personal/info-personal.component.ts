@@ -18,7 +18,7 @@ domicilio: string = "Rosario (S2000) Santa Fe, Argentina";
 celular:number =  3416455566;
 emailPersonal:string = "pablocappe@gmail.com";
 // emailLaboral:string = "pcappellacci@lasegunda.com.ar";
-fotoPerfil:string = "https://media-exp1.licdn.com/dms/image/C4D03AQGDxfZ3Tv4d-Q/profile-displayphoto-shrink_200_200/0/1647280489741?e=1658966400&v=beta&t=ugK9M5DoLUKvfyocObcyFM76Lauc-BSn1R-PHga13bI"
+fotoPerfil:string = "/assets/images/Perfil.jpg"
   constructor() { }
 
 
