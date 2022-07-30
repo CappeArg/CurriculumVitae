@@ -13,7 +13,7 @@ Las secciones que incluyo son:
 
 - SPA desarrollada en Angular
 - Despliegue en Firebase
-- Protegido en CloudFlare (solo práctico!!)
+- Protegido en CloudFlare (solo practíco!!)
 - Dominio propio cappe.net.ar
 
 ## Qué aprendí:
