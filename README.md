@@ -5,7 +5,7 @@ Es mi primer curriculum como desarrollador, el mismo fue efectuado en Angular 13
 Las secciones que incluyo son:
 
 - 💝Información Personal 💝
-- 👷Actividad Profesional👷
+- 👷Actividad Laboral👷
 - 🎓Formación🎓
 - 📆Portfolio y Desarrollo Profesional📆
 
