@@ -7,7 +7,7 @@ Las secciones que incluyo son:
 - 💝Información Personal 💝
 - 👷Actividad Profesional👷
 - 🎓Formación🎓
-- 📆Hoy📆
+- 📆Portfolio y Desarrollo Profesional📆
 
 ## Características
 
@@ -16,10 +16,6 @@ Las secciones que incluyo son:
 - Protegido en CloudFlare (solo practico!!)
 - Dominio propio cappe.net.ar
 
-## Qué aprendí:
-> Más allá de las tecnologías usadas: Angular, Firebase, TypeScript,etc
-> Creo que lo más importante es SER ORDENADO. Cometí algunos errores al momento de
-> realizar los commits y eso me hizo perder un monton de tiempo en cosas básicas.
 
 ## Instalación
 
