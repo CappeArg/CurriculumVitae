@@ -11,12 +11,12 @@ apellido:string = "Cappellacci";
 nombres:string  = "Pablo Andrés";
 dni    :number  = 34319736;
 fechNacimiento:Date = new Date( "1989-07-07" );
-lugarNacimiento:string = "Rosario (Santa Fe) Argentina";
-estCivil: string = "Casado";
-hijos:string = 'Francisca'
+// lugarNacimiento:string = "Rosario (Santa Fe) Argentina";
+// estCivil: string = "Casado";
+// hijos:string = 'Francisca'
 domicilio: string = "Rosario (S2000) Santa Fe, Argentina";
 celular:number =  3416455566;
-emailPersonal:string = "pablocappe@gmail.com";
+emailPersonal:string = "pablocappe@gmail.com - pablo@cappe.net.ar";
 // emailLaboral:string = "pcappellacci@lasegunda.com.ar";
 fotoPerfil:string = "../../../assets/images/perfil.jpg"
 constructor() { }

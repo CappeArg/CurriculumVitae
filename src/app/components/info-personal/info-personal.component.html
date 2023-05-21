@@ -1,6 +1,6 @@
 <div class="row m-3">
     <div class="col">
-        <div class="card mb-3" style="max-width: 100%;">
+        <div class="card mb-3 shadow" style="max-width: 100%;">
             <div class="row g-0">
                 <div class="col-md-2">
                     <img src="{{ fotoPerfil }}" class="img-fluid m-3 animate__animated animate__pulse animate__infinite" alt="fotoDePerfilparamiCV">
@@ -12,27 +12,25 @@
                             <ul class="fa-ul">
                                 <li class="mb-2"><span class="fa-li"><i class="fa-solid fa-person"></i></span><b>Apellido y Nombres:</b> {{apellido}}, {{nombres}}</li>
                                 <li class="mb-2"><span class="fa-li"><i class="fa-solid fa-cake-candles"></i></span><b>Fecha Nacimiento:</b><small> {{fechNacimiento | date:'dd-MM-yyyy'}}</small></li>
-                                <li class="mb-2"><span class="fa-li"><i class="fa-solid fa-building-flag"></i></span><b>Lugar de Nacimiento:</b> {{ lugarNacimiento }}</li>
-                                <li class="mb-2"><span class="fa-li"><i class="fa-solid fa-heart"></i></span><b>Estado Civil:</b> {{ estCivil}}</li>
-                                <li class="mb-2"><span class="fa-li"><i class="fa-solid fa-face-grin-hearts"></i></span><b>Hijos:</b> {{ hijos }} <b>❤</b></li>
                                 <li class="mb-2"><span class="fa-li"><i class="fa-solid fa-house-user"></i></span><b>Domicilio:</b> {{ domicilio }}</li>
                                 <li class="mb-2"><span class="fa-li"><i class="fa-brands fa-whatsapp"></i></span><b>Celular: </b> <a class="link-success" href="https://api.whatsapp.com/send?phone=543416455566&text=Hola,%20estuve%20viendo%20tu%20CV%20y%20me%20interesar%C3%ADa%20hablar%20con%20vos"
                                         target="_blank">{{ celular }}</a></li>
                                 <li class="mb-2"><span class="fa-li"><i class="fa-solid fa-envelope-circle-check"></i></span><b>Email:</b> {{ emailPersonal }} </li>
-
-                                <!-- // {{emailLaboral}} -->
-                                <!-- <li><span class="fa-li"><i class="fa-solid fa-spinner fa-pulse"></i></span>replace bullets</li> -->
-                                <!-- <li><span class="fa-li"><i class="fa-regular fa-square"></i></span>in lists</li> -->
                             </ul>
                             <div class="text-center">
                                 <a class="link-primary animate__animated animate__heartBeat" href="https://www.linkedin.com/in/pablocappe/" target="_blank"><i class="fa-brands fa-linkedin fa-2x m-1 text-end"></i></a>
                                 <a class="link-danger" href="https://www.instagram.com/cappe1989/" target="_blank"><i class="fa-brands fa-instagram-square fa-2x m-1"></i></a>
                                 <a class="link-secondary" href="https://github.com/CappeArg" target="_blank"><i class="fa-brands fa-github fa-2x m-1"></i></a>
+                                <a class="link-secondary" href="https://gitlab.com/pablocappe" target="_blank"><i class="fa-brands fa-gitlab fa-2x m-1"></i></a>
                             </div>
+
                     </div>
                 </div>
             </div>
         </div>
-
+        <div class="row g-0">
+            <div class="col-md-">
+            </div>
+        </div>
     </div>
 </div>

@@ -4,7 +4,7 @@
         <hr>
         <h4 class="text-center animate__animated animate__fadeIn animate__faster">Carreras</h4>
     </div>
-    <div class="card  m-4 animate__animated animate__fadeIn animate__faster" *ngFor="let carrera of carreras">
+    <div class="card  m-4 shadow animate__animated animate__fadeIn animate__faster" *ngFor="let carrera of carreras">
         <div class="card-header">
             {{ carrera.institucion }} - {{ carrera.nivel }}
         </div>
@@ -21,7 +21,7 @@
 
     <h4 class="text-center animate__animated animate__fadeIn animate__faster">Cursos</h4>
 </div>
-<div class="card  m-4 animate__animated animate__fadeIn animate__faster" *ngFor="let curso of cursos">
+<div class="card  m-4 shadow animate__animated animate__fadeIn animate__faster" *ngFor="let curso of cursos">
     <div class="card-header">
         {{ curso.lugar }} - Año {{ curso.anio }}
     </div>
