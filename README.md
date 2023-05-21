@@ -1,5 +1,5 @@
-# Mi Primer Curriculum Vitae como Desarrollador
-Es mi primer curriculum como desarrollador, el mismo fue efectuado en Angular 13 para practicar con un ejemplo real que no sea un sistema de veterinaria, una tienda online o algo parecido jajaja.
+# Curriculum Vitae
+Fue efectuado en Angular 13 para practicar con un ejemplo real que no sea un sistema de veterinaria, una tienda online o algo parecido🦖.
 
 Las secciones que incluyo son:
 
